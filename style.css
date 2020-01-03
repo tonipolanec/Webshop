@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box; 
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+body{
+    background-color: #4040a1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.flex-header{
+    display: flex;
+    background-color: whitesmoke;
+    padding-left: 10%;
+}
+
+.flex-header > div{
+    background-color: whitesmoke;
+    margin:10px;
+    }
+
+.buttonPrijavaKontakt{
+    background-color: #fff4d1;
+    height: 60%;
+    width: 100%;
+    margin-top: 30%;
+    border: none;
+    color: black;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    border-radius: 100px;
+    border: 6px solid #ffe600;
+}
+
+
+
+
+
+.flex-navbar{
+    height: 60px;
+    padding-left: 10%;
+    display: flex;
+    background-color:  #ffe600;
+    padding-left: 10%;
+}
+
+.flex-navbar > div{
+    background-color:#fff4d1;
+    margin: 5px;
+    padding: 10px;
+    align-self: center;
+    color:black;
+    border-radius: 4px;
+}
+
+#main{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    padding-left: 10%;
+    min-height: 500px;
+}
+
+
+
+#main > div{
+    width: 20%;
+    background-color: #e6e6e7;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border: 1px solid black;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.picProizvod{
+    padding: 4%;
+    width:100%;
+    height:200px;
+    border-radius: 4px;
+}
+
+.nazivProizvoda{
+    padding: 0px;
+    margin: 0px;
+
+    border-bottom: 2px solid black;
+}
+
+.cijena{
+    font-weight: bold;
+    color:black;
+    background-color: #ffe600;
+    border-radius: 20px;
+    padding: 4px 5px 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    box-shadow: 2px 2px lightgrey;
+    /*box-shadow: 0px 0px 5px black;*/
+}
+
+
+
+
+
+footer {
+    background-color: #ffe600;
+    height: 15vh;
+    color:white;
+    text-align:center
+  }
