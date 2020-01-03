@@ -16,12 +16,11 @@
                     <p style="text-align: right; margin-right: 5px;">Dobrodošao, Toni Polanec</p>
                 </div>
                 <div style="flex-grow: 1; display: flex; flex-direction: row;">
+                    <!--<a href="http://google.com" style="flex-grow: 1; display: flex; text-decoration: none;" > <button class="buttonPrijavaKontakt">Kontakt</button></a>-->
+                    <div style="flex-grow: 1;" ></div>
                     <a href="prijava.html" style="flex-grow: 1; display: flex; text-decoration: none;" > <button class="buttonPrijavaKontakt">Prijava</button></a>
-                    <a href="http://google.com" style="flex-grow: 1; display: flex; text-decoration: none;" > <button class="buttonPrijavaKontakt">Kontakt</button></a>
-                </div>
- 
+                </divstyle></div>
             </div>
-
         </div>
 
     </header>
@@ -29,10 +28,15 @@
     <navbar>
         <div class="flex-navbar">
             <div style="flex-grow: 3">Kategorije(dropdown)</div>
-            <div style="flex-grow: 15">Pretraži...</div>
+            <!--<div style=" padding: 0px;  flex-grow: 1;">  --> 
+                <form style="flex-grow: 5;margin-top: 11px;" action="/action_page.php">
+                    <input id="pretrazivac" type="text" name="rijeciPretrazivanja"  placeholder="Pretraži..">
+                    <input id="buttonPretrazi" type="submit" value="Pretraži!">
+                </form>          
+            <!--</div>-->
             <div style="flex-grow: 9; background-color: #ffe600;"> </div>
             <div style="flex-grow: 1">Košarica(0.00kn)</div>
-        </div>
+        </div></div>
     </navbar>
 
     <div id="main">
@@ -48,9 +52,11 @@
             <p class="cijena">499.00kn </p>
         </div>
         <div>
-            <div><img  class="picProizvod" src="img/LogitechMXAnywhere2.jpg" alt="Logitech MX Anywhere 2"></div>
-            <p class="nazivProizvoda">Logitech MX Anywhere 2</p>
-            <p class="cijena">369.00kn </p>
+            <a href="logitechmxanywhere2.html" class="proizvodlink">
+                <div><img  class="picProizvod" src="img/LogitechMXAnywhere2.jpg" alt="Logitech MX Anywhere 2"></div>
+                <p class="nazivProizvoda">Logitech MX Anywhere 2</p>
+                <p class="cijena">369.00kn </p>
+            </a>
         </div>
         <div>
             <div><img  class="picProizvod" src="img/BeatsProOver-Ear.jpg" alt="Beats Pro Over-Ear"></div>
