@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+	<body class="secondaryBody">
+
+
+    <div id="mainAdmin">
+        <div id="admin">
+            <p style="font-size:large; text-align: center; font-weight: bolder;">Dodavanje artikla</p>
+            <form id="adminForma">
+                <div style="display: flex; flex-direction: row;">
+                    <div style="flex: 1; flex-grow: 5">
+                        Šifra artikla:
+                        <input class="inputi" type="text" name="sifArtikla"><br>
+                        <br><br>
+                        Odaberi sliku:<br>
+                        <input type="file" name="slikaArtikla">
+
+                    </div>
+                    <div style="flex: 2; flex-grow: 4; align-content: center;">
+                        Naziv: &emsp;&emsp;<input class="inputi" type="text" name="naziv"><br>
+                        Opis artikla: <br><textarea class="inputiDesc" cols="40" rows="4" name="opisArtikla"></textarea><br>
+
+                        <br><br>
+                        Cijena: &emsp;  <input class="inputi" type="text" name="cijenaArtikla"> kn<br>
+                        Poštarina: <input class="inputi" type="text" name="postarinaArtikla"> kn<br>
+
+                        <br><br>
+
+                    </div>
+                </div>
+                
+                <a style="align-self: center; text-decoration:none; width: 40%; text-align: center; color:black" href="index.html" id="buttonDodajArtikl">
+                    Dodaj artikl u webshop!
+                </a>
+            </form>
+        </div>
+    </div>
+
+
+
+    </body>
+
+</html>
